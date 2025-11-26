@@ -1,0 +1,203 @@
+{
+    "accounts": {
+        "101": {
+            "name": "Kas",
+            "type": "Aset",
+            "balance": 210000
+        },
+        "102": {
+            "name": "Bank",
+            "type": "Aset",
+            "balance": 0
+        },
+        "115": {
+            "name": "Persediaan Caping",
+            "type": "Aset",
+            "balance": 39000
+        },
+        "116": {
+            "name": "Persediaan Cat",
+            "type": "Aset",
+            "balance": 0
+        },
+        "117": {
+            "name": "Persediaan Kuas",
+            "type": "Aset",
+            "balance": 0
+        },
+        "201": {
+            "name": "Utang Freelance",
+            "type": "Kewajiban",
+            "balance": 10000
+        },
+        "202": {
+            "name": "Utang Operasional",
+            "type": "Kewajiban",
+            "balance": 0
+        },
+        "301": {
+            "name": "Ekuitas Pokdarwis",
+            "type": "Modal",
+            "balance": 0
+        },
+        "401": {
+            "name": "Pendapatan Paket Wisata",
+            "type": "Pendapatan",
+            "balance": 195000
+        },
+        "402": {
+            "name": "Pendapatan Melukis Caping",
+            "type": "Pendapatan",
+            "balance": 0
+        },
+        "403": {
+            "name": "Pendapatan Eksplorasi Singkong",
+            "type": "Pendapatan",
+            "balance": 0
+        },
+        "404": {
+            "name": "Pendapatan Edukasi Pertanian",
+            "type": "Pendapatan",
+            "balance": 0
+        },
+        "405": {
+            "name": "Pendapatan Konsumsi / Makan",
+            "type": "Pendapatan",
+            "balance": 0
+        },
+        "406": {
+            "name": "Pendapatan Aktivitas Ikan & Sendang",
+            "type": "Pendapatan",
+            "balance": 0
+        },
+        "407": {
+            "name": "Pendapatan Pemandu",
+            "type": "Pendapatan",
+            "balance": 0
+        },
+        "501": {
+            "name": "Beban Melukis Caping",
+            "type": "Beban",
+            "balance": -10000
+        },
+        "502": {
+            "name": "Beban Snack / Break",
+            "type": "Beban",
+            "balance": 0
+        },
+        "503": {
+            "name": "Beban Sendang",
+            "type": "Beban",
+            "balance": 0
+        },
+        "504": {
+            "name": "Beban Pakan Kambing / Sapi",
+            "type": "Beban",
+            "balance": 0
+        },
+        "505": {
+            "name": "Beban Kolam Ikan",
+            "type": "Beban",
+            "balance": 0
+        },
+        "506": {
+            "name": "Beban Menanam Padi",
+            "type": "Beban",
+            "balance": 0
+        },
+        "507": {
+            "name": "Beban Tangkap Ikan",
+            "type": "Beban",
+            "balance": 0
+        },
+        "508": {
+            "name": "Beban Makan Siang",
+            "type": "Beban",
+            "balance": 0
+        },
+        "509": {
+            "name": "Beban Pemandu Wisata",
+            "type": "Beban",
+            "balance": -30000
+        },
+        "510": {
+            "name": "Beban Pokdarwis",
+            "type": "Beban",
+            "balance": 0
+        },
+        "511": {
+            "name": "Beban Marketing",
+            "type": "Beban",
+            "balance": 0
+        },
+        "512": {
+            "name": "Beban Juru Kunci",
+            "type": "Beban",
+            "balance": 0
+        },
+        "520": {
+            "name": "Beban Tenaga Kerja Freelance",
+            "type": "Beban",
+            "balance": 0
+        },
+        "530": {
+            "name": "Beban Listrik",
+            "type": "Beban",
+            "balance": -4000
+        },
+        "531": {
+            "name": "Beban Internet",
+            "type": "Beban",
+            "balance": 0
+        },
+        "532": {
+            "name": "Beban Kebersihan",
+            "type": "Beban",
+            "balance": 0
+        }
+    },
+    "transactions": [
+        {
+            "id": "d84d2ac3-3b23-4d1a-885c-8d0b86520ab8",
+            "date": "2025-11-26",
+            "description": "kunjungan",
+            "debit_account": "101",
+            "credit_account": "401",
+            "amount": 126000
+        },
+        {
+            "id": "ec37d647-30b0-4560-9948-aaaf8218eb92",
+            "date": "2025-11-26",
+            "description": "membeli persediaan",
+            "debit_account": "115",
+            "credit_account": "201",
+            "amount": 39000
+        },
+        {
+            "id": "4495566f-1418-49c5-8879-15d9850d59f4",
+            "date": "2025-11-26",
+            "description": "Pembayaran paket wisata",
+            "debit_account": "101",
+            "credit_account": "401",
+            "amount": 100000
+        }
+    ],
+    "adjustments": [
+        {
+            "id": "d67662d3-a0cd-4c63-915a-e87b686c06fb",
+            "date": "2025-11-26",
+            "description": "Pendapatan di bayar di muka",
+            "debit_account": "101",
+            "credit_account": "401",
+            "amount": 100000
+        },
+        {
+            "id": "e5322f86-4390-471b-9703-0e03b862ec2b",
+            "date": "2025-11-26",
+            "description": "membayar gaji karyawan yang tertunda",
+            "debit_account": "101",
+            "credit_account": "201",
+            "amount": 10000
+        }
+    ]
+}
